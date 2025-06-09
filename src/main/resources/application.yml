@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: weather-mcp
+  ai:
+    mcp:
+      server:
+        name: weather-mcp
+        version: 1.0.0
+        type: sync
+        request-timeout: 30s
+server:
+  port: 50001
+
